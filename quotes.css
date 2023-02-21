@@ -1,0 +1,48 @@
+body {
+    background-color: darkviolet;
+  }
+  .container {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+  }
+  .quotes {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+     box-shadow: 5px 10px 10px black;
+    padding: 0 50px;
+    background-color: aqua;
+    color: gray;
+    margin: auto;
+  }
+  .btn {
+    padding: 7px 15px;
+    color: aquamarine;
+    background-color: black;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+  }
+  .quotes h1,
+  h2 {
+    font-size: 24px;
+  }
+  @media (max-width: 480px) {
+    .quotes h1,
+    h2 {
+      font-size: 18px;
+    }
+  }
+  #btn {
+    margin-top: 30px;
+  }
+  
